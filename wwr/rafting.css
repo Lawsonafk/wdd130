@@ -26,24 +26,49 @@ a {
     color: var(--accent1-color);
 }
 
-.hero {
-    position: block;
+div.hero {
+    position: relative;
     width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5px;
     height: auto;
+    text-align: center;
+    width: 100%;
+    color: var(--accent2-color);
+    max-width: 960px;
+    padding: 0;
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    width: 80%;
+    height: 5em;
+    top: 60%;
+    right: 5px;
+    border-radius: 5px;
+    font-weight: 700;
     background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
-    padding: 10px;
+    padding: 1em;
     color: var(--primary-color);
 }
 
-.hero article img {
+.hero img {
+    display: block;
+    height: auto;
+    width: 100%
+    
+}
+
+.article img {
+    position: relative;
+    width: 0%;
+    height: auto;
     float: right;
-    margin-left: 10px;
 }
 
 header img {
