@@ -26,11 +26,16 @@ a {
     color: var(--accent1-color);
 }
 
+ /* Limit page width */
+ * {
+    margin: 0 auto;
+    max-width: 1000px;
+ }
+
+    /* Styling the hero section */
+    
 div.hero {
     position: relative;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
 }
 
 .hero h1 {
@@ -42,14 +47,17 @@ div.hero {
     color: var(--accent2-color);
     max-width: 960px;
     padding: 0;
+    background-color:rgba(49, 175, 212, 0.5);
 }
 
+ 
+    /*Styling the article section */  
 .hero article {
     position: absolute;
     width: 80%;
     height: 5em;
     top: 60%;
-    right: 5px;
+    right: 10px;
     border-radius: 5px;
     font-weight: 700;
     background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
@@ -66,11 +74,88 @@ div.hero {
 
 .article img {
     position: relative;
-    width: 0%;
+    width: 20%;
     height: auto;
     float: right;
 }
-
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+  }
+.logo img {
+    margin: 0 0.25rem 0.1rem;
+    width: 64px;
+    height: auto;  
+}
+.navigation {
+    display: flex;
+    list-style: none;
+  }
+  .navigation li {
+    flex: 1 1 100%;
+  }
+  .navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+  }
+  navigation a :hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  nav {
+    text-align: right;
+  }
+  .navigation {
+    display: flex;
+  }
+  .flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid;
+    height: auto;
+  }
+  
+  .flexbox-item {
+    width: 50px;
+    margin: 10px;
+    border: 3px solid #333;
+  
+  }
+    /*styling the figure*/
+  figure {
+    border: thin #31AFD4 solid;
+    display: flex;
+    flex-flow: row;
+    padding: 5px;
+    min-width: 5%;
+    height: 10%;
+    margin: auto;
+    align-items: stretch;
+    object-fit: cover;
+    
+  }
+  .adventures-grid img {
+    width: 20%;
+    height:  20%;
+    display: flexbox;
+    margin: 10px;
+    border: 3px solid #333;
+    display: flex;
+  }
+   /* Add any desired styles for the captions */
+  .adventures-grid figcaption {
+    background-color: #200;
+    color: #FFFFFF;
+    padding: 2px;
+  }
 header img {
     max-width: 100px; /* Adjust as needed */
 }
@@ -78,17 +163,9 @@ header img {
 nav a {
     margin: 0 10px;
     color: var(--primary-color);
-}
-
-footer {
+}footer .sociallinks img {
     text-align: center;
     padding: 20px 0;
-}
-
-footer .sociallinks a {
-    margin: 0 10px;
-}
-
-footer .sociallinks img {
-    width: 30px; /* Adjust as needed */
-}
+    width: 30px;
+    margin-right: 10px;
+  }
