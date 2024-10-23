@@ -29,7 +29,8 @@ a {
  /* Limit page width */
  * {
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1200px;
+    position: relative;
  }
 
     /* Styling the hero section */
@@ -43,19 +44,17 @@ div.hero {
     top: 5px;
     height: auto;
     text-align: center;
-    width: 400%;
+    width: 100%;
     color: var(--accent2-color);
     max-width: 960px;
     padding: 0.65rem;
     background-color:rgba(49, 175, 212, 0.5);
     box-shadow: 0 0 30px;
     opacity: .9;
-    bottom: 400px;
     margin: auto;
 
 }
 
- 
     /*Styling the article section */  
 .hero article {
     position: absolute;
