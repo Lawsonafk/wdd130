@@ -1,7 +1,7 @@
 /* rafting.css */
 :root {
-    --primary-color: #396E94; /* Replace with primary color */
-    --secondary-color: #E7C24F; /* Replace with secondary color */
+    --primary-color: #2584c8; /* Replace with primary color */
+    --secondary-color: #f40616fb; /* Replace with secondary color */
     --accent1-color: #A43312; /* Replace with accent color */
     --accent2-color: #381D2A; /* Replace with accent color */
 }
@@ -43,7 +43,7 @@ div.hero {
     position: absolute;
     top: 5px;
     height: auto;
-    text-align: center;
+    text-align:center ;
     width: 100%;
     color: var(--accent2-color);
     max-width: 960px;
@@ -129,6 +129,7 @@ header {
   align-items: center;
   border-bottom: 1px solid #ccc;
   max-width: 1000px;
+  width: 650px;
   }
 .logo img {
     margin: 0 0.25rem 0.1rem;
@@ -212,16 +213,16 @@ header img {
 nav a {
     margin: 0 10px;
     color: var(--primary-color);
-}footer .sociallinks img {
+}
+footer .sociallinks img {
     text-align: center;
     padding: 20px 0;
     width: 30px;
     margin-right: 10px;
-  }
+}
 /* styling the contact us form*/
 /* styling the universal selector*/
-*{
-  padding: 0;
+{ padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -238,8 +239,8 @@ header {
 h1 {
     margin: 1rem;
     font-size: 1.5rem;
-    color:navy
-    text-align; center;
+    color:navy;
+    text-align: center;
 }
 form{
     width: 650px;
@@ -289,7 +290,7 @@ button {
     font-size: 1.2rem;
 }
 button:hover {
-    background-color : darkgreen:
+    background-color : darkgreen;
 }
 footer {
     margin: 1rem auto 0;
@@ -297,7 +298,7 @@ footer {
     text-align: center;
     font-size: 0.8em;
     color: #777;
-    border-top: 1pxsolid #ccc;
+    border-top: 1px solid #ccc;
 }
 /* css styling the class selector */
 .form-item {
